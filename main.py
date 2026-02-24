@@ -12,7 +12,7 @@ from datetime import datetime, timedelta
 from telegram.ext import Application, CommandHandler, ContextTypes, CallbackQueryHandler, MessageHandler, filters
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 
-YOUR_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8225744822:AAEeQEF2V1DVOnTXTmROuvG0cMp0I0kc75A")
+YOUR_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8640496523:AAFW1fI-qCFFiyCH-smR0eXyf57it1m8jaA")
 
 DATA_DIR = "data"
 PANELS_FILE = os.path.join(DATA_DIR, "panels.json")
