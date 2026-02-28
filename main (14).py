@@ -12,7 +12,7 @@ from urllib.parse import urljoin
 from datetime import datetime, timedelta
 from telegram.ext import Application, CommandHandler, ContextTypes, CallbackQueryHandler, MessageHandler, filters
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, InputFile
-YOUR_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8225744822:AAEDhMi-9u2GlgZstgVPBzai_sXCCFAyb14")
+YOUR_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8604879572:AAFvETybpZdmAL_J1woCfI7t1ydwXBX16l8")
 
 DATA_DIR = "data"
 PANELS_FILE = os.path.join(DATA_DIR, "panels.json")
@@ -1260,7 +1260,7 @@ async def send_telegram_message(context, chat_id, message_data, buttons=None):
             f"<blockquote>\U0001f511 OTP: <code>{html_escape(code_str)}</code></blockquote>\n\n"
             f"<blockquote>\U0001f4e9 Full Message:</blockquote>\n"
             f"<pre>{html_escape(full_sms_text)}</pre>\n\n"
-            f"Powered By Junaid Niz \U0001f497"
+            f"Powered By A.J \U0001f497"
         )
         reply_markup = None
         if buttons and len(buttons) > 0:
