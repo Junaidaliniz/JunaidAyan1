@@ -16,7 +16,7 @@ import psycopg2
 from psycopg2 import pool as pg_pool
 
 YOUR_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8604879572:AAFvETybpZdmAL_J1woCfI7t1ydwXBX16l8")
-DATABASE_URL = os.environ.get("DATABASE_URL", "postgresql://neondb_owner:npg_ydjK64pCgONG@ep-sparkling-moon-aior7zgu-pooler.c-4.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require")
+DATABASE_URL = os.environ.get("DATABASE_URL", "postgresql://neondb_owner:npg_cXbWwm5l2ZtM@ep-broad-frost-aigt0qsl-pooler.c-4.us-east-1.aws.neon.tech/neondb?sslmode=require")
 
 POLLING_INTERVAL_SECONDS = 2
 LOGIN_REFRESH_INTERVAL = 900
