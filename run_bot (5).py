@@ -15,7 +15,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, InputFi
 import psycopg2
 from psycopg2 import pool as pg_pool
 
-YOUR_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8390982569:AAFl2zxakzXjnvRiKe3Q3z_v3gawNnav-zA")
+YOUR_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8604879572:AAFvETybpZdmAL_J1woCfI7t1ydwXBX16l8")
 DATABASE_URL = os.environ.get("DATABASE_URL", "postgresql://neondb_owner:npg_W6A9eOivmdXY@ep-curly-sea-ai3xk7dt-pooler.c-4.us-east-1.aws.neon.tech/neondb?sslmode=require")
 
 POLLING_INTERVAL_SECONDS = 2
@@ -1394,7 +1394,7 @@ async def send_telegram_message(context, chat_id, message_data, buttons=None):
             f"<blockquote>\U0001f511 OTP: <code>{html_escape(code_str)}</code></blockquote>\n\n"
             f"<blockquote>\U0001f4e9 Full Message:</blockquote>\n"
             f"<pre>{html_escape(full_sms_text)}</pre>\n\n"
-            f"Powered By Junaid Niz \U0001f497"
+            f"Powered By A.J \U0001f497"
         )
         reply_markup = None
         if buttons and len(buttons) > 0:
